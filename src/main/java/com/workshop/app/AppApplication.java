@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class AppApplication {
 
-	@RequestMapping("/", method = GET)
+	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
 		String mensagem = "Ola Mundo";
