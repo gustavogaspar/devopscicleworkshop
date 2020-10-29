@@ -16,7 +16,7 @@ public class AppApplication {
 	@ResponseBody
 	public String home() {
 		String mensagem = "Ola Mundo";
-		String m = mensagem;
+		String m = mensagem.substring(0);
 		return m;
 	}
 
